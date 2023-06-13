@@ -13,6 +13,7 @@ class DirectionAdmin(admin.ModelAdmin):
 class AnimeAdmin(admin.ModelAdmin):
     list_display = ('titel', 'date_pupl')
 
+
 @admin.register(Reviews)
 class ReviewsAdmin(admin.ModelAdmin):
     list_display = ('name', 'anime')
